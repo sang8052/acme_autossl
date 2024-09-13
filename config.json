@@ -1,0 +1,20 @@
+{
+    "redis":{
+        "host":"127.0.0.1",
+        "password":"l6cqmrh4d6rv6ft4",
+        "port":6379,
+        "index":0
+    },
+    "mysql":{
+        "hostname":"127.0.0.1",
+        "port":3306,
+        "username":"auto_ssl",
+        "password":"zm7PtA7JhALHLCyD",
+        "database":"auto_ssl"
+    },
+    "app":{
+        "enable_cors":true,
+        "http_port":18443
+        
+    }
+}
