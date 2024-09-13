@@ -11,7 +11,7 @@ acme.sh
 ```
 
 <h3 id="ZP97j">二、项目部署说明</h3>
-自行安装 Python3,Mysql,Redis 环境，这里不详细描述, 建议使用[宝塔面板](https://www.bt.cn)一键快速高效安装 
+自行安装 Python3,Mysql,Redis 环境，这里不详细描述, 建议使用[宝塔面板](https://www.bt.cn) 一键快速高效安装 
 
 ![](https://cdn.nlark.com/yuque/0/2024/png/2484069/1726204490519-b0932192-41b3-460b-805f-4ec93e9b93a3.png)
 
@@ -77,7 +77,7 @@ nohup python3 main.py > run.log
 
 <h3 id="GNf5z">三、项目配置说明</h3>
 <h4 id="RopmO">1.配置邮件服务器，用于证书签发成功后发送邮件通知</h4>
-可以参考这篇博文《[如何开启qq邮箱的smtp功能](https://blog.szhcloud.cn/blog/2019/09/23/%e5%a6%82%e4%bd%95%e5%bc%80%e5%90%afqq%e9%82%ae%e7%ae%b1%e7%9a%84smtp%e5%8a%9f%e8%83%bd/)》开启QQ 邮箱的smtp 功能
+可以参考这篇博文 <a href="https://blog.szhcloud.cn/blog/2019/09/23/%e5%a6%82%e4%bd%95%e5%bc%80%e5%90%afqq%e9%82%ae%e7%ae%b1%e7%9a%84smtp%e5%8a%9f%e8%83%bd/"> 《如何开启qq邮箱的smtp功能》</a> 开启QQ 邮箱的smtp 功能
 
 参考下图填写 你的SMTP 服务器的配置
 
@@ -104,6 +104,7 @@ nohup python3 main.py > run.log
 
 
 <h4 id="BcyRu">1.打开阿里云控制面板,鼠标移动到右上角的头像处，下拉选择访问控制</h4>
+
 ![](https://cdn.nlark.com/yuque/0/2024/png/2484069/1726207592798-d2c4e354-0d78-499a-aaaa-9aef20f388e4.png)
 
 ![](https://cdn.nlark.com/yuque/0/2024/png/2484069/1726207638072-715dd4ba-f158-40de-9c52-1b68e5741838.png)
@@ -111,19 +112,21 @@ nohup python3 main.py > run.log
 
 
 <h4 id="srtWK">2.在RAM 子用户处新建一个子用户，用户名随意，用于标识授权的dns 权限账号</h4>
-注意勾选下面的OpenAPI 调用访问 ![](https://cdn.nlark.com/yuque/0/2024/png/2484069/1726207711768-696fbe90-02f0-42b9-b2e0-288a9f175650.png)
+注意勾选下面的OpenAPI 调用访问 
+
+![](https://cdn.nlark.com/yuque/0/2024/png/2484069/1726207711768-696fbe90-02f0-42b9-b2e0-288a9f175650.png)
 
 ![](https://cdn.nlark.com/yuque/0/2024/png/2484069/1726207789387-ceeab99f-e34c-4d54-bc41-2ea859cbbbf4.png)
 
 <h4 id="ERCHH">3.复制创建成功的AK，SK</h4>
+
 ![](https://cdn.nlark.com/yuque/0/2024/png/2484069/1726207956347-eda25082-d6fd-4040-9ec4-c77aab1e2154.png)
 
 ![](https://cdn.nlark.com/yuque/0/2024/png/2484069/1726207995623-b9b7ab13-6ea0-4ad7-8850-1807e8b7a82a.png)
 
 <h4 id="GjX6G">4.在阿里云给予刚刚创建的用户 DNS 权限</h4>
+
 ![](https://cdn.nlark.com/yuque/0/2024/png/2484069/1726208055508-a66d1682-510b-4cc2-8534-6e60c0ec7576.png)
-
-
 
 ![](https://cdn.nlark.com/yuque/0/2024/png/2484069/1726208103648-fb1d0150-d977-4eeb-8fad-bf6c9620c7a5.png)
 
