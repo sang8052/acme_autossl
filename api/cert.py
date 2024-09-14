@@ -202,7 +202,7 @@ export %s=%s
 # COPY 证书
 %s 
 
-curl http://127.0.0.1:%d/api/task/callback/%s
+curl http://127.0.0.1:%d/api/task/callback/%s/
     """ % (dns_api["api_id_field"],api_key["access_id"],dns_api["api_key_field"],api_key["access_key"],reg_shell,install_shell,api.current_app.http_port,cert_id)
     
     tmp_file = tmp_dir + "/shell.sh"
